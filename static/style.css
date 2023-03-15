@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    min-height: 200px;
+    position: relative;
+    right: -25px;
+    bottom: -240px;
+    background-image: url('./pic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.enc{
+    max-width: 150px;
+    color: #DAEF55;
+}
+
+.image-Enc{
+    text-decoration: none;
+    color: #ADF3EC;
+    font-size: 25px;
+}
+
+.back{
+    width: fit-content;
+    height: fit-content;
+}
+
+#te{
+    font-size: 20px;
+    color: #ADF3EC;
+}
+
+.dec{
+    width: 100px;
+    border: none;
+    background: #99FFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    opacity: 0.7;
+    position: relative;
+    right: -10px;
+}
+
+.encVal{
+    position: relative;
+    right: -10px;
+    width: 100px;
+    border: none;
+    background: #99FFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.enc-text{
+    outline: none;
+    border: 1px solid #b3b2b2;
+    border-radius: 5px;
+    font-size: 19px;
+    width: 250px;
+}
+
+
+.dec-Text{
+    outline: none;
+    border: 1px solid #b3b2b2;
+    border-radius: 5px;
+    font-size: 19px;
+    width: 250px;
+}
+
+.out{
+    color: #DAEF55;
+    font-size: 20px;
+}
+
+.detail{
+    width: 485px;
+    height: 250px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 22px 30px 40px;
+    position: relative;
+    right: -550px;
+}
+
+.det{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: -50px;
+}
