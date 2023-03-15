@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--<img class="back" src="{{ url_for("static", filename = '../static/background.png') }}" alt="" srcset="">-->
+    <form action="/" method="post">
+        <input type="text" name="encryt" placeholder="Text" class="enc-text">
+        <input type="submit" class="encVal" value="Encryption">
+    </form>
+    <br>
+    <div class="cont">
+        <p id="te">% Encrypted Text %</p>
+        <p class="enc">{{prediction}}</p>
+    </div>
+    <br>
+    <form action="{{ url_for("decrypt")}}" method="post">
+        <input type="text" name="decryt" placeholder="DEText" class="dec-Text" >
+        <input type="submit" class="dec" value="Decryption">
+    </form>
+    <br>
+    <p id="te">% Decrypted Text %</p>
+    <p class="out">{{pred}}</p>
+    <div class="redirect">
+        <a class="image-Enc" href="/main">Image Encryption</a>
+    </div>
+    <div class="detail">
+        <p class="det">
+            Group No: 13
+            <br>
+            Krishanu Halder
+            <br>
+            Subhamoy kolya
+            <br>
+            Ratnadeep Samanta
+        </p>
+    </div>
+</body>
+</html>
