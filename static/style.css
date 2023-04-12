@@ -83,13 +83,14 @@ body{
 }
 
 .detail{
-    width: 485px;
+    width: 400px;
     height: 250px;
-    background: #fff;
+    background: #99FFFF;
     border-radius: 10px;
     padding: 22px 30px 40px;
     position: relative;
-    right: -550px;
+    right: -1090px;
+    top: -25px;
 }
 
 .det{
@@ -97,4 +98,37 @@ body{
     font-size: 25px;
     position: relative;
     bottom: -50px;
+}
+
+.topic{
+    position: relative;
+    top: -150px;
+    right: -500px;
+    font-size: 40px;
+    color: #99FFFF;
+}
+
+.one{
+    font-size: 20px;
+    color: #4744eb;
+}
+
+.two{
+    font-size: 25px;
+    color: #4744eb;
+}
+
+.three{
+    font-size: 25px;
+    color: #4744eb;
+}
+
+.four{
+    font-size: 25px;
+    color: #4744eb;
+}
+
+.five{
+    font-size: 25px;
+    color: #4744eb;
 }
